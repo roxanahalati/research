@@ -7,9 +7,12 @@ class Group1:
         self.site4 = site4
         self.site5 = site5
         self.site6 = site6
-        self.maxChosen = None
         self.knows = 0
         self.consideredResponsive = []
+        self.preferedPC = 0
+        self.preferedMobile = 0
+        self.age = []
+        self.region = []
 
 
 class Group2:
@@ -21,7 +24,6 @@ class Group2:
         self.site4 = site4
         self.site5 = site5
         self.site6 = site6
-        self.maxChosen = None
         self.knows = 0
         self.consideredAccessible = []
         #to add more questions/responses
@@ -41,7 +43,6 @@ class Group3:
         self.site10 = site10
         self.site11 = site11
         self.site12 = site12
-        self.maxChosen = None
         self.knows = 0
         self.consideredAccessible = []
         #to add more questions/responses

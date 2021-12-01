@@ -4,3 +4,5 @@ class Site:
         self.isAccessible = isAccessible
         self.isResponsive = isResponsive
         self.grade = 0
+        self.ChosenBest = 0
+        self.likes = 0
